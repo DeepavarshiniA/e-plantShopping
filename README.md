@@ -1,16 +1,59 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# e-plantShopping
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+e-plantShopping is a React-based plant shopping application
+for browsing plants and managing a shopping cart.
 
-## React Compiler
+The application is presented as Paradise Nursery.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Welcome page with a Get Started button
+- About Us section
+- Three plant categories
+- Six plants in each category
+- Plant images and prices
+- Add to Cart functionality
+- Increase and decrease item quantities
+- Remove items from the cart
+- Automatic item and cart total calculation
+- Checkout placeholder
+- Continue Shopping navigation
+- Responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- Redux Toolkit
+- React Redux
+- React Router
+
+## Installation
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+## Main Project Files
+
+- `src/App.jsx` - Application routes and welcome page
+- `src/App.css` - Application styling
+- `src/components/AboutUs.jsx` - About Us section
+- `src/components/ProductList.jsx` - Plant categories and products
+- `src/components/CartItem.jsx` - Shopping cart
+- `src/redux/CartSlice.jsx` - Redux cart state and actions
+- `src/main.jsx` - React application entry point
